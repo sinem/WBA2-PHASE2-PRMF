@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Profil" xmlns:tns="http://www.example.org/Profil" elementFormDefault="qualified">
-	<xs:element name="UserProfil">
+	<xs:element name="UserProfile">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="UserID" type="xs:int" />
@@ -15,7 +15,7 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="Subscriptions" >
+				<xs:element name="Subscriptions" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="ChannelName" />
