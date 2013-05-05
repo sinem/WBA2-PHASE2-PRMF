@@ -1,7 +1,7 @@
-Kommunikationsabl�ufe
+Kommunikationsabläufe
 Synchron
 - Registrierung -> Datenbank
-- Profil erstellen / �ndern -> XML-Daten
+- Profil erstellen / ändern -> XML-Daten
 - Channel erstellen / bearbeiten -> XML-Daten
 - Channel Thema / Kategorie, abonnieren, kommentieren / bewerten -> XML-Daten
 
