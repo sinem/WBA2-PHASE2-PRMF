@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Profil" xmlns:tns="http://www.example.org/Profil" elementFormDefault="qualified">
-	<xs:element name="UserProfil">
+	<xs:element name="StreamChannel">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="UserID" type="xs:int" />
-				<xs:element name="UserName" type="xs:string" />
-				<xs:element name="UserInformation" minOccurs="1" maxOccurs="1">
+				<xs:element name="ChannelName" type="xs:string" />
+				<xs:element name="ChannelTopic" type="xs:string" />
+				<xs:element name="ChannelBackground" type="xs:anyURI" />
+				<xs:element name="ChannelDescription">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="FirstName" type="xs:string" />
-							<xs:element name="LastName" type="xs:string" />
-							<xs:element name="Age" type="xs:int" />
-							<xs:element name="City" type="xs:string" />
+							<xs:element name="ChannelHeadline" type="xs:string" />
+							<xs:element name="ChannelInformation" type="xs:string" />
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
