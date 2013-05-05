@@ -1,8 +1,8 @@
-Kommunikationsabläufe
+Kommunikationsablï¿½ufe
 Synchron
 - Registrierung -> Datenbank
-- Profil erstellen / ändern -> XML-Daten
-- Channel erstellen /bearbeiten -> XML-Daten
+- Profil erstellen / ï¿½ndern -> XML-Daten
+- Channel erstellen / bearbeiten -> XML-Daten
 - Channel Thema / Kategorie, abonnieren, kommentieren / bewerten -> XML-Daten
 
 - Themen / Kategorien suchen -> XML-Daten
