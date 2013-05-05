@@ -5,13 +5,20 @@
 			<xs:sequence>
 				<xs:element name="UserID" type="xs:int" />
 				<xs:element name="UserName" type="xs:string" />
-				<xs:element name="UserInformation" minOccurs="1" maxOccurs="1">
+				<xs:element name="UserInformation">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="FirstName" type="xs:string" />
 							<xs:element name="LastName" type="xs:string" />
 							<xs:element name="Age" type="xs:int" />
 							<xs:element name="City" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Subscriptions" >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ChannelName" />
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
