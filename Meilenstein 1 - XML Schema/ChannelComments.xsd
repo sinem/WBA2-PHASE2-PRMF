@@ -3,7 +3,7 @@
 	<xs:element name="ChannelReview">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="ChannelValution" maxOccurs="unbound">
+				<xs:element name="ChannelValution" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="ChannelUserName" type="xs:string" />
