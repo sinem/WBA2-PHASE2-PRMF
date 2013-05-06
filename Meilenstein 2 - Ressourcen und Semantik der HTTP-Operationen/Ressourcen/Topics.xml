@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Topic xmlns:tns="http://www.example.org/Profil" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Profil Topics.xsd ">
+  <tns:TopicName>tns:TopicName</tns:TopicName>
+  <tns:TopicImage>http://tempuri.org</tns:TopicImage>
+  <tns:TopicViewerCount>0</tns:TopicViewerCount>
+</tns:Topic>
