@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/ChannelComments" xmlns:tns="http://www.example.org/ChannelComments" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Channel" xmlns:tns="http://www.example.org/Channel" elementFormDefault="qualified">
 	<xs:element name="Channels">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="Channel" maxOccurs="unbounded">
-					<s:complexType>
+					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="ChannelName" type="xs:string" />
 							<xs:element name="ChannelTopic" type="xs:string" />
@@ -19,7 +19,7 @@
 							</xs:element>
 							<xs:element name="TotalViewerCount" type="xs:int"/>
 						</xs:sequence>
-					</s:complexType>
+					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
 		</xs:complexType>

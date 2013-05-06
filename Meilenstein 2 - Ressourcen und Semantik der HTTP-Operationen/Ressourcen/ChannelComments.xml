@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ChannelReview xmlns:tns="http://www.example.org/ChannelComments" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/ChannelComments ChannelComments.xsd ">
+  <tns:ChannelValution>
+    <tns:ChannelUserName>tns:ChannelUserName</tns:ChannelUserName>
+    <tns:CommentDate>2001-01-01</tns:CommentDate>
+    <tns:CommentData>
+      <tns:CommentHeadline>tns:CommentHeadline</tns:CommentHeadline>
+    </tns:CommentData>
+  </tns:ChannelValution>
+</tns:ChannelReview>
