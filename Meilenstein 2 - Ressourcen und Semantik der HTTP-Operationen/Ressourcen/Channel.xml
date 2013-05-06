@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:StreamChannel xmlns:tns="http://www.example.org/Profil" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Profil Channel.xsd ">
   <tns:ChannelName>PeterKanal</tns:ChannelName>
-  <tns:ChannelTopic>Peters playin da games</tns:ChannelTopic>
+  <tns:ChannelTopic>Peter playin da games</tns:ChannelTopic>
   <tns:ChannelBackground>http://huebschebilder.de/bild1.jpg</tns:ChannelBackground>
   <tns:ChannelDescription>
     <tns:ChannelHeadline>Hallo Leute hier gehts ab</tns:ChannelHeadline>
