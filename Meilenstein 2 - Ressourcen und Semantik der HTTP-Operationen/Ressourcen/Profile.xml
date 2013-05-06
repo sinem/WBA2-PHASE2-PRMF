@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:UserProfile xmlns:tns="http://www.example.org/Profil" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Profil Profile.xsd ">
-  <tns:UserID>0</tns:UserID>
-  <tns:UserName>PetersKanal</tns:UserName>
-  <tns:UserInformation>
-    <tns:FirstName>Peter</tns:FirstName>
-    <tns:LastName>Meier</tns:LastName>
-    <tns:Age>57</tns:Age>
-    <tns:City>Buxdehude</tns:City>
-  </tns:UserInformation>
-  <tns:Subscriptions>
-    <tns:ChannelName>HansisKanal</tns:ChannelName>
-    <tns:ChannelName>Honcast</tns:ChannelName>
-  </tns:Subscriptions>
+  <tns:User>
+    <tns:UserID>0</tns:UserID>
+    <tns:UserName>tns:UserName</tns:UserName>
+    <tns:UserInformation>
+      <tns:FirstName>tns:FirstName</tns:FirstName>
+      <tns:LastName>tns:LastName</tns:LastName>
+      <tns:Age>0</tns:Age>
+      <tns:City>tns:City</tns:City>
+    </tns:UserInformation>
+    <tns:Subscriptions>
+      <tns:ChannelName/>
+    </tns:Subscriptions>
+  </tns:User>
 </tns:UserProfile>
