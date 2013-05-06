@@ -12,7 +12,7 @@ DELETE : -
 GET : Profildaten werden vom Server geladen		
 POST : Bearbeitung der Profildaten		
 PUT : Einfügen von neuen Profildaten		
-DELETE : Entfernung von Profildaten (Profil l�schen)		
+DELETE : Entfernung von Profildaten (Profil löschen)		
 
 ##Channel erstellen / bearbeiten
 
