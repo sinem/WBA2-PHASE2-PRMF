@@ -2,7 +2,7 @@
 
 ##Registrierung
 
-GET : Prüfung ob die E-Mail Adresse schon in der Datenbank vorhanden ist. 	
+GET : Pr√ºfung ob die E-Mail Adresse schon in der Datenbank vorhanden ist. 	
 POST : - 	
 PUT : Erstellt neuen User mit Passwort und E-Mail.	
 DELETE : -	
@@ -11,14 +11,14 @@ DELETE : -
 
 GET : Profildaten werden vom Server geladen		
 POST : Bearbeitung der Profildaten		
-PUT : Einfügen von neuen Profildaten		
-DELETE : Entfernung von Profildaten (Profil löschen)		
+PUT : Einf√ºgen von neuen Profildaten		
+DELETE : Entfernung von Profildaten (Profil lÔøΩschen)		
 
 ##Channel erstellen / bearbeiten
 
 GET : Channelinformationen werden vom Server geladen		
 POST : Bearbeitung des Channels		
-PUT : Einfügen von neuen Channelinformationen		
+PUT : Einf√ºgen von neuen Channelinformationen		
 DELETE : Entfenung von Channelinformationen		
 
 ##Themen / Kategorien suchen
@@ -32,7 +32,7 @@ DELETE : -
 
 GET : Vorhandene Kommentare / Bewertungen vom Server abrufen			
 POST : -	
-PUT : Neue Kommentare / Bewertungen hinzufügen			
+PUT : Neue Kommentare / Bewertungen hinzuf√ºgen			
 DELETE : -		
 
 ##Beliebteste Themen
