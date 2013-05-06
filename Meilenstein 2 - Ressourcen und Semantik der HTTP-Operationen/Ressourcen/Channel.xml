@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:StreamChannel xmlns:tns="http://www.example.org/Profil" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Profil Channel.xsd ">
+  <tns:ChannelName>tns:ChannelName</tns:ChannelName>
+  <tns:ChannelTopic>tns:ChannelTopic</tns:ChannelTopic>
+  <tns:ChannelBackground>http://tempuri.org</tns:ChannelBackground>
+  <tns:ChannelDescription>
+    <tns:ChannelHeadline>tns:ChannelHeadline</tns:ChannelHeadline>
+    <tns:ChannelInformation>tns:ChannelInformation</tns:ChannelInformation>
+  </tns:ChannelDescription>
+  <tns:TotalViewerCount>0</tns:TotalViewerCount>
+</tns:StreamChannel>
